@@ -1,0 +1,93 @@
+.customizer {
+  text-align: center;
+}
+
+.umbrella-container {
+  position: relative;
+  display: inline-block;
+}
+
+.logo-upload {
+  margin-top: 20px;
+}
+
+#logo {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.umbrella {
+  position: relative;
+}
+
+.umbrella-image {
+  width: 300px; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+}
+
+.logo-image {
+  position: absolute;
+  bottom: 40px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px; /* Adjust as needed */
+  height: auto; /* Adjust as needed */
+  z-index: 1;
+}
+.upload-button {
+  display: inline-block;
+  padding: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.color-swatch {
+  display: flex;
+  justify-content: center;
+}
+
+.swatch {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.swatch:hover {
+  border: 2px solid #000;
+}
+
+.swatch.selected {
+  border: 2px solid #000;
+}
+
+.swatch.pink {
+  background-color: pink;
+}
+
+.swatch.blue {
+  background-color: skyblue;
+}
+
+.swatch.yellow {
+  background-color: yellow;
+}
+
+#umbrella {
+  max-width: 100%; /* Set the maximum width to the container's width */
+  height: auto; /* Maintain the aspect ratio of the image */
+}
